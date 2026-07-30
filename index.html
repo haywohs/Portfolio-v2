@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Haywo Hsieh, a Calgary-based software developer and quality assurance professional with experience in React, Java, JavaScript, SQL, MongoDB, IoT testing, and operations leadership."
+    />
+    <meta name="theme-color" content="#0b1220" />
+    <meta property="og:title" content="Haywo Hsieh | Software Developer & QA Engineer" />
+    <meta
+      property="og:description"
+      content="Software development, quality assurance, and operations leadership portfolio."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/portfolio-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Haywo Hsieh | Software Developer & QA Engineer</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Haywo Hsieh — home">
+          <span class="brand-mark" aria-hidden="true">HH</span>
+          <span class="brand-text">Haywo Hsieh</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+          data-menu-toggle
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="primary-menu" data-menu>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+          <a
+            class="nav-resume"
+            href="assets/Haywo_Hsieh_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">
+              <span class="status-dot" aria-hidden="true"></span>
+              Calgary, Alberta · Open to Canada-based opportunities
+            </p>
+
+            <h1 id="hero-title">
+              I build reliable software with a
+              <span class="accent-text">quality-first mindset.</span>
+            </h1>
+
+            <p class="hero-summary">
+              I’m Haywo Hsieh, a software developer and QA professional whose background
+              combines full-stack development, Google Nest IoT validation, and operations
+              leadership in high-pressure environments.
+            </p>
+
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="button button-primary" href="#projects">Explore my work</a>
+              <a
+                class="button button-secondary"
+                href="assets/Haywo_Hsieh_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View resume
+              </a>
+            </div>
+
+            <ul class="hero-highlights" aria-label="Professional highlights">
+              <li><strong>Software</strong><span>React, Java, APIs, databases</span></li>
+              <li><strong>Quality</strong><span>Test design, log analysis, IoT validation</span></li>
+              <li><strong>Leadership</strong><span>Process improvement and team operations</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" data-reveal>
+            <div class="system-card" aria-label="Engineering profile summary">
+              <div class="system-card__topbar">
+                <span></span><span></span><span></span>
+                <p>engineering-profile.json</p>
+              </div>
+
+              <div class="code-block" aria-hidden="true">
+                <p><span class="code-key">"name"</span>: <span class="code-string">"Haywo Hsieh"</span>,</p>
+                <p><span class="code-key">"role"</span>: <span class="code-string">"Software Developer + QA"</span>,</p>
+                <p><span class="code-key">"focus"</span>: [</p>
+                <p class="code-indent"><span class="code-string">"reliability"</span>,</p>
+                <p class="code-indent"><span class="code-string">"maintainability"</span>,</p>
+                <p class="code-indent"><span class="code-string">"clear documentation"</span></p>
+                <p>],</p>
+                <p><span class="code-key">"status"</span>: <span class="code-boolean">"ready to contribute"</span></p>
+              </div>
+
+              <div class="system-card__footer">
+                <span class="signal" aria-hidden="true"></span>
+                <span>QUALITY SYSTEMS ONLINE</span>
+              </div>
+            </div>
+
+            <div class="floating-note floating-note--top" aria-hidden="true">
+              <span>01</span>
+              <p>Investigate</p>
+            </div>
+            <div class="floating-note floating-note--middle" aria-hidden="true">
+              <span>02</span>
+              <p>Build</p>
+            </div>
+            <div class="floating-note floating-note--bottom" aria-hidden="true">
+              <span>03</span>
+              <p>Validate</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="section-label">Selected work</p>
+              <h2 id="projects-title">Projects built around real workflows</h2>
+            </div>
+            <p>
+              Each project is presented as an engineering case: the problem, the system,
+              and the technical decisions—not only a list of tools.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-card--featured" data-reveal>
+              <div class="project-visual project-visual--commerce" aria-hidden="true">
+                <div class="mock-window">
+                  <div class="mock-window__bar"><span></span><span></span><span></span></div>
+                  <div class="commerce-layout">
+                    <div class="commerce-sidebar"></div>
+                    <div class="commerce-content">
+                      <div class="commerce-title"></div>
+                      <div class="commerce-products">
+                        <span></span><span></span><span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p class="project-kicker">Featured full-stack project</p>
+                <h3>MERN E-Commerce Platform</h3>
+                <p>
+                  A full-stack shopping application supporting authentication, product
+                  administration, shopping-cart workflows, and inventory-focused CRUD
+                  operations.
+                </p>
+
+                <ul class="project-points">
+                  <li>Designed REST API and MongoDB data flows</li>
+                  <li>Implemented JWT authentication and protected admin actions</li>
+                  <li>Managed reusable React components and application state</li>
+                </ul>
+
+                <div class="tag-list" aria-label="Technologies used">
+                  <span>React</span><span>Node.js</span><span>Express</span>
+                  <span>MongoDB</span><span>JWT</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    class="text-link"
+                    href="https://github.com/haywohs/DrinkWebApp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View source <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal>
+              <div class="project-visual project-visual--library" aria-hidden="true">
+                <div class="library-shelf">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="library-panel">
+                  <div></div><div></div><div></div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p class="project-kicker">Java application</p>
+                <h3>Library Management System</h3>
+                <p>
+                  A Java application for searching, displaying, selecting, and checking out
+                  books using object-oriented design and structured data handling.
+                </p>
+
+                <div class="tag-list" aria-label="Technologies used">
+                  <span>Java</span><span>OOP</span><span>Data management</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    class="text-link"
+                    href="https://github.com/haywohs/SmallLibrary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View source <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal>
+              <div class="project-visual project-visual--portfolio" aria-hidden="true">
+                <div class="portfolio-browser">
+                  <div class="portfolio-browser__nav"></div>
+                  <div class="portfolio-browser__hero">
+                    <span></span>
+                    <div></div>
+                  </div>
+                  <div class="portfolio-browser__cards"><span></span><span></span><span></span></div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p class="project-kicker">Frontend and deployment</p>
+                <h3>Developer Portfolio System</h3>
+                <p>
+                  A responsive, accessible portfolio architecture designed to communicate
+                  engineering evidence clearly and deploy directly through GitHub Pages.
+                </p>
+
+                <div class="tag-list" aria-label="Technologies used">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                  <span>GitHub Pages</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    class="text-link"
+                    href="https://github.com/haywohs/Portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View current repository <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <div class="section-heading section-heading--dark" data-reveal>
+            <div>
+              <p class="section-label">Professional experience</p>
+              <h2 id="experience-title">Quality, delivery, and leadership</h2>
+            </div>
+            <p>
+              My experience connects technical validation with practical execution: find
+              the issue, communicate it clearly, improve the process, and deliver reliably.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item" data-reveal>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-meta">
+                <p>Oct 2024 — Present</p>
+                <span>Calgary, Alberta</span>
+              </div>
+              <div class="timeline-content">
+                <p class="role-type">Operations leadership</p>
+                <h3>Operations Lead / Senior Sous Chef</h3>
+                <p class="company">PowerPlay</p>
+                <ul>
+                  <li>
+                    Lead daily front-of-house and back-of-house execution and resolve
+                    time-sensitive issues in a high-volume environment.
+                  </li>
+                  <li>
+                    Develop procedures and reporting practices that improve workflow
+                    visibility, consistency, and leadership decision-making.
+                  </li>
+                  <li>
+                    Manage labour deployment and overtime against productivity and cost
+                    targets while training and supporting team members.
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item" data-reveal>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-meta">
+                <p>Jul 2021 — Jan 2022</p>
+                <span>Taiwan</span>
+              </div>
+              <div class="timeline-content">
+                <p class="role-type">Product quality</p>
+                <h3>QA Engineer, Google Nest Project</h3>
+                <p class="company">Wipro</p>
+                <ul>
+                  <li>
+                    Designed and executed structured test plans for Google Nest IoT devices
+                    across Android and iOS ecosystems.
+                  </li>
+                  <li>
+                    Analyzed device logs, reproduced failures, and documented defects with
+                    clear evidence and steps for engineering teams.
+                  </li>
+                  <li>
+                    Collaborated with software engineers and UI/UX designers to investigate
+                    bugs, verify fixes, and support product readiness.
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item" data-reveal>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-meta">
+                <p>Aug 2017 — Aug 2018</p>
+                <span>Taiwan</span>
+              </div>
+              <div class="timeline-content">
+                <p class="role-type">Client analysis and communication</p>
+                <h3>Dietitian</h3>
+                <p class="company">PerfectLine Inc.</p>
+                <ul>
+                  <li>
+                    Assessed client needs, developed individualized nutrition plans, and
+                    translated technical health information into practical guidance.
+                  </li>
+                  <li>
+                    Contributed digital content and marketing concepts for the company
+                    website and social channels.
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-heading" data-reveal>
+            <p class="section-label">About me</p>
+            <h2 id="about-title">A nonlinear career with a consistent operating principle</h2>
+            <p class="about-quote">Understand the system. Improve the process. Protect the quality.</p>
+          </div>
+
+          <div class="about-copy" data-reveal>
+            <p>
+              I am a software developer and QA professional based in Calgary. I completed
+              SAIT’s Information Technology – Software Development diploma after working on
+              product validation for Google Nest IoT devices.
+            </p>
+            <p>
+              Quality assurance taught me to investigate failures carefully, document
+              reproducible evidence, and work across disciplines to improve product
+              reliability. Software development gave me the tools to design the solution—not
+              only identify the problem.
+            </p>
+            <p>
+              Today, I lead operations in a high-volume environment while continuing to build
+              software. That combination has strengthened my judgment, communication,
+              process discipline, and ability to remain calm when systems are under pressure.
+            </p>
+            <p>
+              I am pursuing software development, quality assurance, application support,
+              and technical systems roles where reliability and continuous learning matter.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="section-label">Technical toolkit</p>
+              <h2 id="skills-title">Skills organized by how software is delivered</h2>
+            </div>
+            <p>
+              A useful skills section should help a hiring manager understand where each tool
+              fits in the engineering lifecycle.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card" data-reveal>
+              <p class="skill-number">01</p>
+              <h3>Build</h3>
+              <p>Languages and frameworks used to create application behaviour and interfaces.</p>
+              <div class="tag-list tag-list--large">
+                <span>Java</span><span>JavaScript</span><span>Python</span>
+                <span>React</span><span>Node.js</span><span>Express</span>
+              </div>
+            </article>
+
+            <article class="skill-card" data-reveal>
+              <p class="skill-number">02</p>
+              <h3>Integrate</h3>
+              <p>Data and service technologies used to connect application components.</p>
+              <div class="tag-list tag-list--large">
+                <span>REST APIs</span><span>MongoDB</span><span>MySQL</span>
+                <span>Oracle</span><span>SQL</span><span>JWT</span>
+              </div>
+            </article>
+
+            <article class="skill-card" data-reveal>
+              <p class="skill-number">03</p>
+              <h3>Validate</h3>
+              <p>Quality practices used to investigate failures and protect release readiness.</p>
+              <div class="tag-list tag-list--large">
+                <span>Test design</span><span>Manual testing</span><span>Log analysis</span>
+                <span>Defect reporting</span><span>IoT validation</span><span>Android / iOS</span>
+              </div>
+            </article>
+
+            <article class="skill-card" data-reveal>
+              <p class="skill-number">04</p>
+              <h3>Deliver</h3>
+              <p>Tools and operating practices used to maintain repeatable development work.</p>
+              <div class="tag-list tag-list--large">
+                <span>Git</span><span>Docker</span><span>Linux</span>
+                <span>Postman</span><span>Agile collaboration</span><span>Documentation</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education" aria-labelledby="education-title">
+        <div class="container education-grid">
+          <div data-reveal>
+            <p class="section-label">Education</p>
+            <h2 id="education-title">Technical foundations supported by broader experience</h2>
+          </div>
+
+          <div class="education-list">
+            <article class="education-item" data-reveal>
+              <p class="education-year">2024</p>
+              <div>
+                <h3>Diploma, Information Technology – Software Development</h3>
+                <p>Southern Alberta Institute of Technology (SAIT)</p>
+                <span>
+                  Coursework included object-oriented programming, web development,
+                  databases, systems analysis, and software testing.
+                </span>
+              </div>
+            </article>
+
+            <article class="education-item" data-reveal>
+              <p class="education-year">Additional</p>
+              <div>
+                <h3>Bachelor of Science</h3>
+                <p>Multidisciplinary academic foundation</p>
+                <span>Also holds a National Dietitian Licence in Taiwan.</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-card" data-reveal>
+          <div>
+            <p class="section-label">Contact</p>
+            <h2 id="contact-title">Let’s build dependable systems together.</h2>
+            <p>
+              I’m open to software development, quality assurance, application support,
+              and technical systems opportunities in Canada.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button button-primary button-light" href="mailto:ru8391@gmail.com">
+              Email Haywo
+            </a>
+            <button class="button button-ghost" type="button" data-copy-email>
+              Copy email
+            </button>
+          </div>
+
+          <div class="contact-links" aria-label="Professional profiles">
+            <a href="https://www.linkedin.com/in/haywohs/" target="_blank" rel="noopener noreferrer">
+              LinkedIn <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://github.com/haywohs" target="_blank" rel="noopener noreferrer">
+              GitHub <span aria-hidden="true">↗</span>
+            </a>
+            <a href="assets/Haywo_Hsieh_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              Resume <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <p class="copy-message" role="status" aria-live="polite" data-copy-message></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span data-year></span> Haywo Hsieh. Built with semantic HTML, CSS, and JavaScript.</p>
+        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
